@@ -1,0 +1,7 @@
+{
+    "name": "O3de",
+    "files": ["o3de"],
+    "settings": {
+        "Lua.runtime.version": "LuaJIT"
+    }
+}
