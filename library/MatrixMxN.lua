@@ -2,7 +2,7 @@
 
 ---MatrixMxN represents a matrix with dynamic row and column dimensions, supporting various mathematical operations and submatrix manipulations.
 ---@class MatrixMxN
-local MatrixMxN = {}
+MatrixMxN = {}
 
 ---Returns the number of rows in the matrix.
 ---@return number

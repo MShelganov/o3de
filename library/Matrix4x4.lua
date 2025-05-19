@@ -2,7 +2,7 @@
 
 --- TODO: !!! Matrix with 3 rows and 3 columns. See Matrix4x4 for general information about matrices.
 ---@class Matrix4x4
-local Matrix4x4 = {}
+Matrix4x4 = {}
 
 ---* Stores to a row-major 9-number array.
 ---@param values number

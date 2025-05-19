@@ -1,9 +1,7 @@
 ---@meta
 
 ---@enum ChildChangeType
-local ChildChangeType = {
+ChildChangeType = {
     Added = 0,
     Removed = 1
 }
-
-return ChildChangeType

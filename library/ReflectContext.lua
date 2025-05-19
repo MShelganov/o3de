@@ -2,4 +2,4 @@
 
 ---* TODO: !!!
 ---@class ReflectContext
-local ReflectContext = {}
+ReflectContext = {}

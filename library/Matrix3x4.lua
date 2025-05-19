@@ -1,7 +1,7 @@
 ---@meta
 --- Matrix with 3 rows and 3 columns. See Matrix4x4 for general information about matrices.
 ---@class Matrix3x4
-local Matrix3x4 = {}
+Matrix3x4 = {}
 
 ---* Gets the scale part of the transformation, i.e. the length of the scale components.
 ---@return Vector3
