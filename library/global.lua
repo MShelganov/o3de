@@ -10,8 +10,6 @@
 
 ---@class short
 
----@class EntityId
-
 ---@class Interface
 
 ---@class Pi
@@ -32,14 +30,7 @@
 
 ---@class FloatEpsilon
 
----@class EBus
----@field Event Interface
-
---- TODO:Decsription
----@return EntityId
-function EntityId() end
-
---- TODO:Decsription
----@param name string
+---The Input Event Notification bus is used to alert systems that an input event has been processed
+---@param name string Input Event Notification Id
 ---@return table
 function InputEventNotificationId(name) end

@@ -2,7 +2,7 @@
 
 --- The basic transformation class, represented using a quaternion rotation, float scale and vector translation. By design, cannot represent skew transformations.
 ---@class Transform
-local Transform = {}
+Transform = {}
 
 ---* GetBasis(int index) const
 ---@param index number
@@ -128,71 +128,71 @@ function Transform:IsFinite() end
 
 ---* Reflect (ReflectContext *context)
 ---@param context ReflectContext
-function Transform:Reflect(context) end
+function Transform.Reflect(context) end
 
 ---* CreateIdentity()
 ---@return Transform
-function Transform:CreateIdentity() end
+function Transform.CreateIdentity() end
 
 ---* Sets the matrix from a quaternion, translation is set to zero.
 ---@param q Quaternion
 ---@return Transform
-function Transform:CreateFromQuaternion(q) end
+function Transform.CreateFromQuaternion(q) end
 
 ---* Sets the matrix from a quaternion and a translation.
 ---@param q Quaternion
 ---@param p Vector3
 ---@return Transform
-function Transform:CreateFromQuaternionAndTranslation(q, p) end
+function Transform.CreateFromQuaternionAndTranslation(q, p) end
 
 ---* 
 ---@param value Matrix3x3
 ---@return Transform
-function Transform:CreateFromMatrix3x3(value) end
+function Transform.CreateFromMatrix3x3(value) end
 
 ---* 
 ---@param value Matrix3x3
 ---@param p Vector3
 ---@return Transform
-function Transform:CreateFromMatrix3x3AndTranslation(value, p) end
+function Transform.CreateFromMatrix3x3AndTranslation(value, p) end
 
 ---* 
 ---@param value Matrix3x4
 ---@return Transform
-function Transform:CreateFromMatrix3x4(value) end
+function Transform.CreateFromMatrix3x4(value) end
 
 ---* Sets the transform to apply (uniform) scale only, no rotation or translation.
 ---@param scale number
 ---@return Transform
-function Transform:CreateUniformScale(scale) end
+function Transform.CreateUniformScale(scale) end
 
 ---* Sets the matrix to be a translation matrix, rotation part is set to identity.
 ---@param translation Vector3
 ---@return Transform
-function Transform:CreateTranslation(translation) end
+function Transform.CreateTranslation(translation) end
 
 ---* Creates a "look at" transform. Given a source position and target position, computes a transform at the source position that points toward the target along a chosen local-space axis.
 ---@param from Vector3
 ---@param to Vector3
 ---@param forwardAxis AxisType
 ---@return Transform
-function Transform:CreateLookAt(from, to, forwardAxis) end
+function Transform.CreateLookAt(from, to, forwardAxis) end
 
 ---* static const Transform & Identity()
 ---@return Transform
-function Transform:Identity() end
+function Transform.Identity() end
 
 ---* 
 ---@param angle number
 ---@return Transform
-function Transform:CreateRotationX(angle) end
+function Transform.CreateRotationX(angle) end
 
 ---* 
 ---@param angle number
 ---@return Transform
-function Transform:CreateRotationY(angle) end
+function Transform.CreateRotationY(angle) end
 
 ---* 
 ---@param angle number
 ---@return Transform
-function Transform:CreateRotationZ(angle) end
+function Transform.CreateRotationZ(angle) end

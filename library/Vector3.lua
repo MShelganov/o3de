@@ -2,7 +2,7 @@
 
 ---3-dimensional vector class.
 ---@class Vector3
-local Vector3 = {}
+Vector3 = {}
 
 ---Returns the x component of the vector.
 ---@return number
