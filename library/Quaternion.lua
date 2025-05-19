@@ -2,7 +2,7 @@
 
 --- Class representing a quaternion for rotation and transformation operations.
 ---@class Quaternion
-local Quaternion = {}
+Quaternion = {}
 
 ---* Gets a component by index (slower than direct accessors).
 ---@param index int - Index of the component (0=x, 1=y, 2=z, 3=w)

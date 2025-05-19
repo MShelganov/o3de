@@ -1,7 +1,7 @@
 ---@meta
 
 ---@enum AxisType
-local AxisType = {
+AxisType = {
     XPositive = 0,
     XNegative = 1,
     YPositive = 2,
@@ -9,5 +9,3 @@ local AxisType = {
     ZPositive = 4,
     ZNegative = 5
 }
-
-return AxisType

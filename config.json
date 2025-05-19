@@ -1,6 +1,6 @@
 {
     "name": "O3de",
-    "files": ["o3de"],
+    "words": [ "require[%s%(\"']+MAA[%)\"']" ],
     "settings": {
         "Lua.runtime.version": "LuaJIT"
     }

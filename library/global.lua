@@ -35,4 +35,11 @@
 ---@class EBus
 ---@field Event Interface
 
+--- TODO:Decsription
+---@return EntityId
+function EntityId() end
+
+--- TODO:Decsription
+---@param name string
+---@return table
 function InputEventNotificationId(name) end
